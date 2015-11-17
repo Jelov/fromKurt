@@ -1,0 +1,752 @@
+[peng43@hep practice4]$ source run_bfractionVsJetPtPP.sh 
+root [0] 
+Processing bfractionVsJetPtPP.C+...
+Info in <TUnixSystem::ACLiC>: creating shared library /home/peng43/fromKurt/practice/practice4/./bfractionVsJetPtPP_C.so
+
+RooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+libGL error: failed to load driver: swrast
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Processing jet pT bin [80,100] ...
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xB): fit range of variable svtxm expanded to nearest bin boundaries: [0,6] --> [0,6]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xC): fit range of variable svtxm expanded to nearest bin boundaries: [0,6] --> [0,6]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xL): fit range of variable svtxm expanded to nearest bin boundaries: [0,6] --> [0,6]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xCL): fit range of variable svtxm expanded to nearest bin boundaries: [0,6] --> [0,6]
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(svtxm) ERROR: TTree branch svtxm is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(jtpt) ERROR: TTree branch jtpt is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(jteta) ERROR: TTree branch jteta is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(discr_ssvHighEff) ERROR: TTree branch discr_ssvHighEff is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(rawpt) ERROR: TTree branch rawpt is an array and cannot be attached to a RooAbsReal
+[#1] INFO:Eval -- RooAbsReal::attachToTree(evtSelection) TTree Bool_t branch evtSelection will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(vz) TTree Int_t branch vz will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(maxTrgPt) TTree Float_t branch maxTrgPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(data) Ignored 5009280 out of range events
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (bottom,charm,light)
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(model) Calculating sum-of-weights-squared correction matrix for covariance matrix
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+setting parameter 0 error to 0.38561
+setting parameter 1 error to 0.38561
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (light)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (charm)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (charm,light)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (bottom)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooPlot::updateFitRangeNorm: New event count of 0 will supercede previous event count of 1 for normalization of PDF projections
+Info in <TH1D::Chi2TestX>: There is a bin in h1 with less than 10 effective events.
+
+Info in <TH1D::Chi2TestX>: There is a bin in h2 with less than 10 effective events.
+
+Chi2 = 246.631420, Prob = 1.41711e-46, NDF = 11, igood = 3
+Info in <TH1D::Chi2TestX>: There is a bin in h1 with less than 10 effective events.
+
+Info in <TH1D::Chi2TestX>: There is a bin in h2 with less than 10 effective events.
+
+Chi2 = 246.631420, Prob = 1.41711e-46, NDF = 11, igood = 3
+ZZZZZ TEXTcounter: 0   Comment: b-tagged sample (SSVHE > 2)
+ZZZZZ Scale factors: B= 0.282363 C= 1.25641 Light= 2.21055
+ZZZZZ Chi2: 246.631 Chi2/NDF: 22.421
+ZZZZZ var: svtxm  discr: discr_ssvHighEff    min(discr): 2    max(discr): 6
+min(var): 0    max(var): 6
+ZZZZZ in pT [ 80 , 100 ]
+ZZZZZ b jet fraction in data = 0.104783
+ZZZZZ c jet fraction = 0.3
+Info in <TCanvas::Print>: pdf file PDFS/fitpPb_eta-1.0to1.0_SVmass_2_floatC_80.pdf has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: MACROS/fitpPb_eta-1.0to1.0_SVmass_2_floatC_80.C has been generated
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xB): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xC): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xL): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xCL): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(discr_prob) ERROR: TTree branch discr_prob is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(jtpt) ERROR: TTree branch jtpt is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(jteta) ERROR: TTree branch jteta is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(rawpt) ERROR: TTree branch rawpt is an array and cannot be attached to a RooAbsReal
+[#1] INFO:Eval -- RooAbsReal::attachToTree(evtSelection) TTree Bool_t branch evtSelection will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(vz) TTree Int_t branch vz will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(maxTrgPt) TTree Float_t branch maxTrgPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(data) Ignored 5009280 out of range events
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (bottom,charm,light)
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(model) Calculating sum-of-weights-squared correction matrix for covariance matrix
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+setting parameter 0 error to 0.21297
+setting parameter 1 error to 0.225252
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (light)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (charm)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (charm,light)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (bottom)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooPlot::updateFitRangeNorm: New event count of 0 will supercede previous event count of 1 for normalization of PDF projections
+Info in <TH1D::Chi2TestX>: There is a bin in h1 with less than 10 effective events.
+
+Chi2 = 173.015920, Prob = 2.82412e-31, NDF = 11, igood = 1
+Info in <TH1D::Chi2TestX>: There is a bin in h1 with less than 10 effective events.
+
+Chi2 = 173.015920, Prob = 2.82412e-31, NDF = 11, igood = 1
+ZZZZZ TEXTcounter: 1   Comment: jets with JP info
+ZZZZZ Scale factors: B= 0.776684 C= 0.157751 Light= 1.23453
+ZZZZZ Chi2: 173.016 Chi2/NDF: 15.7287
+ZZZZZ var: discr_prob  discr: discr_prob    min(discr): 0    max(discr): 3
+min(var): 0    max(var): 3
+ZZZZZ in pT [ 80 , 100 ]
+ZZZZZ b jet fraction in data = 0.0222823
+ZZZZZ c jet fraction = 0.01
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xB): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xC): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xL): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xCL): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(discr_prob) ERROR: TTree branch discr_prob is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(jtpt) ERROR: TTree branch jtpt is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(jteta) ERROR: TTree branch jteta is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(discr_ssvHighEff) ERROR: TTree branch discr_ssvHighEff is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(rawpt) ERROR: TTree branch rawpt is an array and cannot be attached to a RooAbsReal
+[#1] INFO:Eval -- RooAbsReal::attachToTree(evtSelection) TTree Bool_t branch evtSelection will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(vz) TTree Int_t branch vz will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(maxTrgPt) TTree Float_t branch maxTrgPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(data) Ignored 5009280 out of range events
+Warning in <TFile::Append>: Replacing existing TH1: discr_prob80100 (Potential memory leak).
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (bottom,charm,light)
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(model) Calculating sum-of-weights-squared correction matrix for covariance matrix
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+setting parameter 0 error to 0.21297
+setting parameter 1 error to 0.225252
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (light)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (charm)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (charm,light)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (bottom)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooPlot::updateFitRangeNorm: New event count of 0 will supercede previous event count of 1 for normalization of PDF projections
+Info in <TH1D::Chi2TestX>: There is a bin in h1 with less than 10 effective events.
+
+Chi2 = 945.171144, Prob = 1.1999e-195, NDF = 11, igood = 1
+Info in <TH1D::Chi2TestX>: There is a bin in h1 with less than 10 effective events.
+
+Chi2 = 945.171144, Prob = 1.1999e-195, NDF = 11, igood = 1
+ZZZZZ TEXTcounter: 2   Comment: b-tagged sample (SSVHE > 2)
+ZZZZZ Scale factors: B= 0.0600276 C= 0.0418856 Light= 3.59468
+ZZZZZ Chi2: 945.171 Chi2/NDF: 85.9246
+ZZZZZ var: discr_prob  discr: discr_ssvHighEff    min(discr): 2    max(discr): 6
+min(var): 0    max(var): 3
+ZZZZZ in pT [ 80 , 100 ]
+ZZZZZ b jet fraction in data = 0.0222823
+ZZZZZ c jet fraction = 0.01
+ bPurMC 0.376158 numbers.nTaggedBjetsMC 4.37515e-06 numbers.nTaggedJetsMC 1.16312e-05
+checkpoint 1
+checkpoint 2
+checkpoint 3
+checkpoint 4
+checkpoint 5
+checkpoint 6
+checkpoint 7
+checkpoint 8
+nTaggedJetsMC 1.16312e-05
+nUntaggedJetsMC 0.000221608
+nJetsMC 0.000233239
+nTaggedBjetsMC 4.37515e-06
+nUntaggedBjetsMC 2.23891e-06
+nBjetsMC 6.61406e-06
+nNonBjetsMC 0.000226625
+nTaggedNonBjetsMC 7.25601e-06
+nTaggedJetsData 1.16312e-05
+nUntaggedJetsData 0.000221608
+bPurMC 0.376158
+bPurData 0.104783
+bEffMC 0.661493
+CbForJP 1
+bEffDataLTJP 0.0498679
+CbForCSV 0
+bEffDataLTCSV 0
+bFracMC 0.0283574
+bFracData 0.00789929
+bFracDataLTJP 0.104783
+bFracDataLTCSV 0
+bFracJPdirect 0.0222823
+
+Processing jet pT bin [100,130] ...
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xB): fit range of variable svtxm expanded to nearest bin boundaries: [0,6] --> [0,6]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xC): fit range of variable svtxm expanded to nearest bin boundaries: [0,6] --> [0,6]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xL): fit range of variable svtxm expanded to nearest bin boundaries: [0,6] --> [0,6]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xCL): fit range of variable svtxm expanded to nearest bin boundaries: [0,6] --> [0,6]
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(svtxm) ERROR: TTree branch svtxm is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(jtpt) ERROR: TTree branch jtpt is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(jteta) ERROR: TTree branch jteta is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(discr_ssvHighEff) ERROR: TTree branch discr_ssvHighEff is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(rawpt) ERROR: TTree branch rawpt is an array and cannot be attached to a RooAbsReal
+[#1] INFO:Eval -- RooAbsReal::attachToTree(evtSelection) TTree Bool_t branch evtSelection will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(vz) TTree Int_t branch vz will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(maxTrgPt) TTree Float_t branch maxTrgPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(data) Ignored 5009280 out of range events
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (bottom,charm,light)
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(model) Calculating sum-of-weights-squared correction matrix for covariance matrix
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+setting parameter 0 error to 0.38561
+setting parameter 1 error to 0.38561
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (light)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (charm)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (charm,light)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (bottom)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooPlot::updateFitRangeNorm: New event count of 0 will supercede previous event count of 1 for normalization of PDF projections
+Info in <TH1D::Chi2TestX>: There is a bin in h1 with less than 10 effective events.
+
+Info in <TH1D::Chi2TestX>: There is a bin in h2 with less than 10 effective events.
+
+Chi2 = 272.255984, Prob = 6.0084e-52, NDF = 11, igood = 3
+Info in <TH1D::Chi2TestX>: There is a bin in h1 with less than 10 effective events.
+
+Info in <TH1D::Chi2TestX>: There is a bin in h2 with less than 10 effective events.
+
+Chi2 = 272.255984, Prob = 6.0084e-52, NDF = 11, igood = 3
+ZZZZZ TEXTcounter: 3   Comment: b-tagged sample (SSVHE > 2)
+ZZZZZ Scale factors: B= 0.273753 C= 1.08768 Light= 1.87239
+ZZZZZ Chi2: 272.256 Chi2/NDF: 24.7505
+ZZZZZ var: svtxm  discr: discr_ssvHighEff    min(discr): 2    max(discr): 6
+min(var): 0    max(var): 6
+ZZZZZ in pT [ 100 , 130 ]
+ZZZZZ b jet fraction in data = 0.104783
+ZZZZZ c jet fraction = 0.3
+Info in <TCanvas::Print>: pdf file PDFS/fitpPb_eta-1.0to1.0_SVmass_2_floatC_100.pdf has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: MACROS/fitpPb_eta-1.0to1.0_SVmass_2_floatC_100.C has been generated
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xB): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xC): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xL): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xCL): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(discr_prob) ERROR: TTree branch discr_prob is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(jtpt) ERROR: TTree branch jtpt is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(jteta) ERROR: TTree branch jteta is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(rawpt) ERROR: TTree branch rawpt is an array and cannot be attached to a RooAbsReal
+[#1] INFO:Eval -- RooAbsReal::attachToTree(evtSelection) TTree Bool_t branch evtSelection will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(vz) TTree Int_t branch vz will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(maxTrgPt) TTree Float_t branch maxTrgPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(data) Ignored 5009280 out of range events
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (bottom,charm,light)
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(model) Calculating sum-of-weights-squared correction matrix for covariance matrix
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+setting parameter 0 error to 0.21297
+setting parameter 1 error to 0.225252
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (light)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (charm)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (charm,light)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (bottom)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooPlot::updateFitRangeNorm: New event count of 0 will supercede previous event count of 1 for normalization of PDF projections
+Info in <TH1D::Chi2TestX>: There is a bin in h1 with less than 10 effective events.
+
+Info in <TH1D::Chi2TestX>: There is a bin in h2 with less than 10 effective events.
+
+Chi2 = 221.093373, Prob = 3.05606e-41, NDF = 11, igood = 3
+Info in <TH1D::Chi2TestX>: There is a bin in h1 with less than 10 effective events.
+
+Info in <TH1D::Chi2TestX>: There is a bin in h2 with less than 10 effective events.
+
+Chi2 = 221.093373, Prob = 3.05606e-41, NDF = 11, igood = 3
+ZZZZZ TEXTcounter: 4   Comment: jets with JP info
+ZZZZZ Scale factors: B= 0.740833 C= 0.144926 Light= 1.1676
+ZZZZZ Chi2: 221.093 Chi2/NDF: 20.0994
+ZZZZZ var: discr_prob  discr: discr_prob    min(discr): 0    max(discr): 3
+min(var): 0    max(var): 3
+ZZZZZ in pT [ 100 , 130 ]
+ZZZZZ b jet fraction in data = 0.0222823
+ZZZZZ c jet fraction = 0.01
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xB): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xC): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xL): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xCL): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(discr_prob) ERROR: TTree branch discr_prob is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(jtpt) ERROR: TTree branch jtpt is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(jteta) ERROR: TTree branch jteta is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(discr_ssvHighEff) ERROR: TTree branch discr_ssvHighEff is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(rawpt) ERROR: TTree branch rawpt is an array and cannot be attached to a RooAbsReal
+[#1] INFO:Eval -- RooAbsReal::attachToTree(evtSelection) TTree Bool_t branch evtSelection will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(vz) TTree Int_t branch vz will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(maxTrgPt) TTree Float_t branch maxTrgPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(data) Ignored 5009280 out of range events
+Warning in <TFile::Append>: Replacing existing TH1: discr_prob100130 (Potential memory leak).
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (bottom,charm,light)
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(model) Calculating sum-of-weights-squared correction matrix for covariance matrix
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+setting parameter 0 error to 0.21297
+setting parameter 1 error to 0.225252
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (light)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (charm)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (charm,light)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (bottom)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooPlot::updateFitRangeNorm: New event count of 0 will supercede previous event count of 1 for normalization of PDF projections
+Info in <TH1D::Chi2TestX>: There is a bin in h1 with less than 10 effective events.
+
+Info in <TH1D::Chi2TestX>: There is a bin in h2 with less than 10 effective events.
+
+Chi2 = 912.636468, Prob = 1.19029e-188, NDF = 11, igood = 3
+Info in <TH1D::Chi2TestX>: There is a bin in h1 with less than 10 effective events.
+
+Info in <TH1D::Chi2TestX>: There is a bin in h2 with less than 10 effective events.
+
+Chi2 = 912.636468, Prob = 1.19029e-188, NDF = 11, igood = 3
+ZZZZZ TEXTcounter: 5   Comment: b-tagged sample (SSVHE > 2)
+ZZZZZ Scale factors: B= 0.0581642 C= 0.0362636 Light= 3.04657
+ZZZZZ Chi2: 912.636 Chi2/NDF: 82.967
+ZZZZZ var: discr_prob  discr: discr_ssvHighEff    min(discr): 2    max(discr): 6
+min(var): 0    max(var): 3
+ZZZZZ in pT [ 100 , 130 ]
+ZZZZZ b jet fraction in data = 0.0222823
+ZZZZZ c jet fraction = 0.01
+ bPurMC 0.383152 numbers.nTaggedBjetsMC 1.84487e-06 numbers.nTaggedJetsMC 4.81498e-06
+checkpoint 1
+checkpoint 2
+checkpoint 3
+checkpoint 4
+checkpoint 5
+checkpoint 6
+checkpoint 7
+checkpoint 8
+nTaggedJetsMC 4.81498e-06
+nUntaggedJetsMC 8.89139e-05
+nJetsMC 9.37289e-05
+nTaggedBjetsMC 1.84487e-06
+nUntaggedBjetsMC 8.65536e-07
+nBjetsMC 2.71041e-06
+nNonBjetsMC 9.10184e-05
+nTaggedNonBjetsMC 2.97011e-06
+nTaggedJetsData 4.81498e-06
+nUntaggedJetsData 8.89139e-05
+bPurMC 0.383152
+bPurData 0.104783
+bEffMC 0.680662
+CbForJP 1
+bEffDataLTJP 0.0513714
+CbForCSV 0
+bEffDataLTCSV 0
+bFracMC 0.0289175
+bFracData 0.00790826
+bFracDataLTJP 0.104783
+bFracDataLTCSV 0
+bFracJPdirect 0.0222823
+
+Processing jet pT bin [130,170] ...
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xB): fit range of variable svtxm expanded to nearest bin boundaries: [0,6] --> [0,6]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xC): fit range of variable svtxm expanded to nearest bin boundaries: [0,6] --> [0,6]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xL): fit range of variable svtxm expanded to nearest bin boundaries: [0,6] --> [0,6]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xCL): fit range of variable svtxm expanded to nearest bin boundaries: [0,6] --> [0,6]
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(svtxm) ERROR: TTree branch svtxm is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(jtpt) ERROR: TTree branch jtpt is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(jteta) ERROR: TTree branch jteta is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(discr_ssvHighEff) ERROR: TTree branch discr_ssvHighEff is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(rawpt) ERROR: TTree branch rawpt is an array and cannot be attached to a RooAbsReal
+[#1] INFO:Eval -- RooAbsReal::attachToTree(evtSelection) TTree Bool_t branch evtSelection will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(vz) TTree Int_t branch vz will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(maxTrgPt) TTree Float_t branch maxTrgPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(data) Ignored 5009280 out of range events
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (bottom,charm,light)
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(model) Calculating sum-of-weights-squared correction matrix for covariance matrix
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+setting parameter 0 error to 0.38561
+setting parameter 1 error to 0.38561
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (light)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (charm)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (charm,light)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (bottom)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooPlot::updateFitRangeNorm: New event count of 0 will supercede previous event count of 1 for normalization of PDF projections
+Info in <TH1D::Chi2TestX>: There is a bin in h1 with less than 10 effective events.
+
+Chi2 = 578.445494, Prob = 5.69682e-117, NDF = 11, igood = 1
+Info in <TH1D::Chi2TestX>: There is a bin in h1 with less than 10 effective events.
+
+Chi2 = 578.445494, Prob = 5.69682e-117, NDF = 11, igood = 1
+ZZZZZ TEXTcounter: 6   Comment: b-tagged sample (SSVHE > 2)
+ZZZZZ Scale factors: B= 0.497258 C= 1.98162 Light= 2.7581
+ZZZZZ Chi2: 578.445 Chi2/NDF: 52.586
+ZZZZZ var: svtxm  discr: discr_ssvHighEff    min(discr): 2    max(discr): 6
+min(var): 0    max(var): 6
+ZZZZZ in pT [ 130 , 170 ]
+ZZZZZ b jet fraction in data = 0.104783
+ZZZZZ c jet fraction = 0.3
+Info in <TCanvas::Print>: pdf file PDFS/fitpPb_eta-1.0to1.0_SVmass_2_floatC_130.pdf has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: MACROS/fitpPb_eta-1.0to1.0_SVmass_2_floatC_130.C has been generated
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xB): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xC): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xL): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xCL): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(discr_prob) ERROR: TTree branch discr_prob is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(jtpt) ERROR: TTree branch jtpt is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(jteta) ERROR: TTree branch jteta is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(rawpt) ERROR: TTree branch rawpt is an array and cannot be attached to a RooAbsReal
+[#1] INFO:Eval -- RooAbsReal::attachToTree(evtSelection) TTree Bool_t branch evtSelection will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(vz) TTree Int_t branch vz will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(maxTrgPt) TTree Float_t branch maxTrgPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(data) Ignored 5009280 out of range events
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (bottom,charm,light)
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(model) Calculating sum-of-weights-squared correction matrix for covariance matrix
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+setting parameter 0 error to 0.21297
+setting parameter 1 error to 0.225252
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (light)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (charm)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (charm,light)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (bottom)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooPlot::updateFitRangeNorm: New event count of 0 will supercede previous event count of 1 for normalization of PDF projections
+Info in <TH1D::Chi2TestX>: There is a bin in h1 with less than 10 effective events.
+
+Info in <TH1D::Chi2TestX>: There is a bin in h2 with less than 10 effective events.
+
+Chi2 = 143.286778, Prob = 3.49028e-25, NDF = 11, igood = 3
+Info in <TH1D::Chi2TestX>: There is a bin in h1 with less than 10 effective events.
+
+Info in <TH1D::Chi2TestX>: There is a bin in h2 with less than 10 effective events.
+
+Chi2 = 143.286778, Prob = 3.49028e-25, NDF = 11, igood = 3
+ZZZZZ TEXTcounter: 7   Comment: jets with JP info
+ZZZZZ Scale factors: B= 0.810382 C= 0.157888 Light= 1.2111
+ZZZZZ Chi2: 143.287 Chi2/NDF: 13.0261
+ZZZZZ var: discr_prob  discr: discr_prob    min(discr): 0    max(discr): 3
+min(var): 0    max(var): 3
+ZZZZZ in pT [ 130 , 170 ]
+ZZZZZ b jet fraction in data = 0.0222823
+ZZZZZ c jet fraction = 0.01
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xB): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xC): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xL): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xCL): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(discr_prob) ERROR: TTree branch discr_prob is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(jtpt) ERROR: TTree branch jtpt is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(jteta) ERROR: TTree branch jteta is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(discr_ssvHighEff) ERROR: TTree branch discr_ssvHighEff is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(rawpt) ERROR: TTree branch rawpt is an array and cannot be attached to a RooAbsReal
+[#1] INFO:Eval -- RooAbsReal::attachToTree(evtSelection) TTree Bool_t branch evtSelection will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(vz) TTree Int_t branch vz will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(maxTrgPt) TTree Float_t branch maxTrgPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(data) Ignored 5009280 out of range events
+Warning in <TFile::Append>: Replacing existing TH1: discr_prob130170 (Potential memory leak).
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (bottom,charm,light)
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(model) Calculating sum-of-weights-squared correction matrix for covariance matrix
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+setting parameter 0 error to 0.21297
+setting parameter 1 error to 0.225252
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (light)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (charm)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (charm,light)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (bottom)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooPlot::updateFitRangeNorm: New event count of 0 will supercede previous event count of 1 for normalization of PDF projections
+Info in <TH1D::Chi2TestX>: There is a bin in h1 with less than 10 effective events.
+
+Info in <TH1D::Chi2TestX>: There is a bin in h2 with less than 10 effective events.
+
+Chi2 = 1121.544798, Prob = 1.29962e-233, NDF = 11, igood = 3
+Info in <TH1D::Chi2TestX>: There is a bin in h1 with less than 10 effective events.
+
+Info in <TH1D::Chi2TestX>: There is a bin in h2 with less than 10 effective events.
+
+Chi2 = 1121.544798, Prob = 1.29962e-233, NDF = 11, igood = 3
+ZZZZZ TEXTcounter: 8   Comment: b-tagged sample (SSVHE > 2)
+ZZZZZ Scale factors: B= 0.105795 C= 0.0660096 Light= 4.48244
+ZZZZZ Chi2: 1121.54 Chi2/NDF: 101.959
+ZZZZZ var: discr_prob  discr: discr_ssvHighEff    min(discr): 2    max(discr): 6
+min(var): 0    max(var): 3
+ZZZZZ in pT [ 130 , 170 ]
+ZZZZZ b jet fraction in data = 0.0222823
+ZZZZZ c jet fraction = 0.01
+ bPurMC 0.211057 numbers.nTaggedBjetsMC 5.05051e-07 numbers.nTaggedJetsMC 2.39295e-06
+checkpoint 1
+checkpoint 2
+checkpoint 3
+checkpoint 4
+checkpoint 5
+checkpoint 6
+checkpoint 7
+checkpoint 8
+nTaggedJetsMC 2.39295e-06
+nUntaggedJetsMC 2.64222e-05
+nJetsMC 2.88152e-05
+nTaggedBjetsMC 5.05051e-07
+nUntaggedBjetsMC 2.75683e-07
+nBjetsMC 7.80733e-07
+nNonBjetsMC 2.80344e-05
+nTaggedNonBjetsMC 1.8879e-06
+nTaggedJetsData 2.39295e-06
+nUntaggedJetsData 2.64222e-05
+bPurMC 0.211057
+bPurData 0.104783
+bEffMC 0.646892
+CbForJP 1
+bEffDataLTJP 0.083045
+CbForCSV 0
+bEffDataLTCSV 0
+bFracMC 0.0270945
+bFracData 0.0134516
+bFracDataLTJP 0.104783
+bFracDataLTCSV 0
+bFracJPdirect 0.0222823
+
+Processing jet pT bin [170,250] ...
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xB): fit range of variable svtxm expanded to nearest bin boundaries: [0,6] --> [0,6]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xC): fit range of variable svtxm expanded to nearest bin boundaries: [0,6] --> [0,6]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xL): fit range of variable svtxm expanded to nearest bin boundaries: [0,6] --> [0,6]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xCL): fit range of variable svtxm expanded to nearest bin boundaries: [0,6] --> [0,6]
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(svtxm) ERROR: TTree branch svtxm is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(jtpt) ERROR: TTree branch jtpt is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(jteta) ERROR: TTree branch jteta is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(discr_ssvHighEff) ERROR: TTree branch discr_ssvHighEff is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(rawpt) ERROR: TTree branch rawpt is an array and cannot be attached to a RooAbsReal
+[#1] INFO:Eval -- RooAbsReal::attachToTree(evtSelection) TTree Bool_t branch evtSelection will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(vz) TTree Int_t branch vz will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(maxTrgPt) TTree Float_t branch maxTrgPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(data) Ignored 5009280 out of range events
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (bottom,charm,light)
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(model) Calculating sum-of-weights-squared correction matrix for covariance matrix
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+setting parameter 0 error to 0.38561
+setting parameter 1 error to 0.38561
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (light)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (charm)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (charm,light)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (bottom)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooPlot::updateFitRangeNorm: New event count of 0 will supercede previous event count of 1 for normalization of PDF projections
+Chi2 = 267.333631, Prob = 6.49003e-51, NDF = 11, igood = 0
+Chi2 = 267.333631, Prob = 6.49003e-51, NDF = 11, igood = 0
+ZZZZZ TEXTcounter: 9   Comment: b-tagged sample (SSVHE > 2)
+ZZZZZ Scale factors: B= 0.313168 C= 1.23778 Light= 1.407
+ZZZZZ Chi2: 267.334 Chi2/NDF: 24.3031
+ZZZZZ var: svtxm  discr: discr_ssvHighEff    min(discr): 2    max(discr): 6
+min(var): 0    max(var): 6
+ZZZZZ in pT [ 170 , 250 ]
+ZZZZZ b jet fraction in data = 0.104783
+ZZZZZ c jet fraction = 0.3
+Info in <TCanvas::Print>: pdf file PDFS/fitpPb_eta-1.0to1.0_SVmass_2_floatC_170.pdf has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: MACROS/fitpPb_eta-1.0to1.0_SVmass_2_floatC_170.C has been generated
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xB): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xC): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xL): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xCL): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(discr_prob) ERROR: TTree branch discr_prob is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(jtpt) ERROR: TTree branch jtpt is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(jteta) ERROR: TTree branch jteta is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(rawpt) ERROR: TTree branch rawpt is an array and cannot be attached to a RooAbsReal
+[#1] INFO:Eval -- RooAbsReal::attachToTree(evtSelection) TTree Bool_t branch evtSelection will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(vz) TTree Int_t branch vz will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(maxTrgPt) TTree Float_t branch maxTrgPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(data) Ignored 5009280 out of range events
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (bottom,charm,light)
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(model) Calculating sum-of-weights-squared correction matrix for covariance matrix
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+setting parameter 0 error to 0.21297
+setting parameter 1 error to 0.225252
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (light)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (charm)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (charm,light)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (bottom)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooPlot::updateFitRangeNorm: New event count of 0 will supercede previous event count of 1 for normalization of PDF projections
+Chi2 = 149.921805, Prob = 1.54632e-26, NDF = 11, igood = 0
+Chi2 = 149.921805, Prob = 1.54632e-26, NDF = 11, igood = 0
+ZZZZZ TEXTcounter: 10   Comment: jets with JP info
+ZZZZZ Scale factors: B= 0.869582 C= 0.163082 Light= 1.20937
+ZZZZZ Chi2: 149.922 Chi2/NDF: 13.6293
+ZZZZZ var: discr_prob  discr: discr_prob    min(discr): 0    max(discr): 3
+min(var): 0    max(var): 3
+ZZZZZ in pT [ 170 , 250 ]
+ZZZZZ b jet fraction in data = 0.0222823
+ZZZZZ c jet fraction = 0.01
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xB): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xC): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xL): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xCL): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(discr_prob) ERROR: TTree branch discr_prob is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(jtpt) ERROR: TTree branch jtpt is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(jteta) ERROR: TTree branch jteta is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(discr_ssvHighEff) ERROR: TTree branch discr_ssvHighEff is an array and cannot be attached to a RooAbsReal
+[#0] ERROR:Eval -- RooAbsReal::attachToTree(rawpt) ERROR: TTree branch rawpt is an array and cannot be attached to a RooAbsReal
+[#1] INFO:Eval -- RooAbsReal::attachToTree(evtSelection) TTree Bool_t branch evtSelection will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(vz) TTree Int_t branch vz will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(maxTrgPt) TTree Float_t branch maxTrgPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(data) Ignored 5009280 out of range events
+Warning in <TFile::Append>: Replacing existing TH1: discr_prob170250 (Potential memory leak).
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (bottom,charm,light)
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(model) Calculating sum-of-weights-squared correction matrix for covariance matrix
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+setting parameter 0 error to 0.21297
+setting parameter 1 error to 0.225252
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (light)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (charm)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (charm,light)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (bottom)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooPlot::updateFitRangeNorm: New event count of 0 will supercede previous event count of 1 for normalization of PDF projections
+Info in <TH1D::Chi2TestX>: There is a bin in h2 with less than 10 effective events.
+
+Chi2 = 1526.678972, Prob = 0, NDF = 11, igood = 2
+Info in <TH1D::Chi2TestX>: There is a bin in h2 with less than 10 effective events.
+
+Chi2 = 1526.678972, Prob = 0, NDF = 11, igood = 2
+ZZZZZ TEXTcounter: 11   Comment: b-tagged sample (SSVHE > 2)
+ZZZZZ Scale factors: B= 0.066498 C= 0.0412812 Light= 2.2895
+ZZZZZ Chi2: 1526.68 Chi2/NDF: 138.789
+ZZZZZ var: discr_prob  discr: discr_ssvHighEff    min(discr): 2    max(discr): 6
+min(var): 0    max(var): 3
+ZZZZZ in pT [ 170 , 250 ]
+ZZZZZ b jet fraction in data = 0.0222823
+ZZZZZ c jet fraction = 0.01
+ bPurMC 0.335306 numbers.nTaggedBjetsMC 1.4467e-07 numbers.nTaggedJetsMC 4.31456e-07
+checkpoint 1
+checkpoint 2
+checkpoint 3
+checkpoint 4
+checkpoint 5
+checkpoint 6
+checkpoint 7
+checkpoint 8
+nTaggedJetsMC 4.31456e-07
+nUntaggedJetsMC 8.82815e-06
+nJetsMC 9.25961e-06
+nTaggedBjetsMC 1.4467e-07
+nUntaggedBjetsMC 9.00784e-08
+nBjetsMC 2.34748e-07
+nNonBjetsMC 9.02486e-06
+nTaggedNonBjetsMC 2.86787e-07
+nTaggedJetsData 4.31456e-07
+nUntaggedJetsData 8.82815e-06
+bPurMC 0.335306
+bPurData 0.104783
+bEffMC 0.616277
+CbForJP 1
+bEffDataLTJP 0.0465955
+CbForCSV 0
+bEffDataLTCSV 0
+bFracMC 0.0253518
+bFracData 0.00792246
+bFracDataLTJP 0.104783
+bFracDataLTCSV 0
+bFracJPdirect 0.0222823
+
+Info in <TCanvas::Print>: GIF file gifs/svtxMassFit_CLfree.gif has been created
+Info in <TCanvas::Print>: GIF file gifs/jpBeforeTag_CLfree.gif has been created
+Info in <TCanvas::Print>: GIF file gifs/jpAfterTag_CLfree.gif has been created
+
+real	28m24.931s
+user	27m24.422s
+sys	0m33.312s
+
