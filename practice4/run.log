@@ -1,0 +1,377 @@
+[peng43@hep practice4]$ root mybfractionVsJetPtPP.C+
+root [0] 
+Processing mybfractionVsJetPtPP.C+...
+Info in <TUnixSystem::ACLiC>: creating shared library /home/peng43/fromKurt/practice/practice4/./mybfractionVsJetPtPP_C.so
+
+RooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+libGL error: failed to load driver: swrast
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Processing jet pT bin [80,100] ...
+mycheck 1
+mycheck 2
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xB): fit range of variable svtxm expanded to nearest bin boundaries: [0,6] --> [0,6]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xC): fit range of variable svtxm expanded to nearest bin boundaries: [0,6] --> [0,6]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xL): fit range of variable svtxm expanded to nearest bin boundaries: [0,6] --> [0,6]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xCL): fit range of variable svtxm expanded to nearest bin boundaries: [0,6] --> [0,6]
+mycheck 3
+mycheck 4
+[#1] INFO:Eval -- RooAbsReal::attachToTree(svtxm) TTree Float_t branch svtxm will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(jtpt) TTree Float_t branch jtpt will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(jteta) TTree Float_t branch jteta will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(discr_ssvHighEff) TTree Float_t branch discr_ssvHighEff will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(rawpt) TTree Float_t branch rawpt will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(evtSelection) TTree Bool_t branch evtSelection will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(maxTrgPt) TTree Float_t branch maxTrgPt will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(pthat) TTree Float_t branch pthat will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(data) Ignored 14881616 out of range events
+mycheck 5
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (bottom,charm,light)
+ EIGENVALUES OF SECOND-DERIVATIVE MATRIX:
+        -1.1558e-01  2.1156e+00
+ MINUIT WARNING IN HESSE   
+ ============== MATRIX FORCED POS-DEF BY ADDING 0.117692 TO DIAGONAL.
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(model) Calculating sum-of-weights-squared correction matrix for covariance matrix
+setting parameter 0 error to 1.44243
+setting parameter 1 error to 6.52936
+mycheck 6
+[#1] INFO:InputArguments -- RooAbsData::plotOn(data) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (light)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (charm)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (charm,light)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (bottom)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.36923[#0] WARNING:Eval -- 
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.36923[#0] WARNING:Eval -- 
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.36923[#0] WARNING:Eval -- 
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.36923[#0] WARNING:Eval -- 
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.36923[#0] WARNING:Eval -- 
+[#0] WARNING:Plotting -- At observable [x]=0.25 RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.238533), forcing value to zero @ !refCoefNorm=(svtxm = 0.25), !pdfs=(bottom = 1.64498e-07/4.31474e-06,charm = 5.44189e-07/2.77626e-06,light = 2.95945e-06/3.13074e-06), !coefficients=(Bfraction = 1 +/- 1.44243,Cfraction = 0.369234 +/- 6.52936)
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.36923[#0] WARNING:Eval -- 
+[#0] WARNING:Plotting -- At observable [x]=0.5 RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.238533), forcing value to zero @ !refCoefNorm=(svtxm = 0.5), !pdfs=(bottom = 1.64498e-07/4.31474e-06,charm = 5.44189e-07/2.77626e-06,light = 2.95945e-06/3.13074e-06), !coefficients=(Bfraction = 1 +/- 1.44243,Cfraction = 0.369234 +/- 6.52936)
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.36923[#0] WARNING:Eval -- 
+[#0] WARNING:Plotting -- At observable [x]=0.5 RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.151634), forcing value to zero @ !refCoefNorm=(svtxm = 0.5), !pdfs=(bottom = 6.17539e-07/4.31474e-06,charm = 1.48954e-06/2.77626e-06,light = 4.17898e-06/3.13074e-06), !coefficients=(Bfraction = 1 +/- 1.44243,Cfraction = 0.369234 +/- 6.52936)
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.36923[#0] WARNING:Eval -- 
+[#0] WARNING:Plotting -- At observable [x]=0.75 RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.151634), forcing value to zero @ !refCoefNorm=(svtxm = 0.75), !pdfs=(bottom = 6.17539e-07/4.31474e-06,charm = 1.48954e-06/2.77626e-06,light = 4.17898e-06/3.13074e-06), !coefficients=(Bfraction = 1 +/- 1.44243,Cfraction = 0.369234 +/- 6.52936)
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.36923[#0] WARNING:Eval -- 
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.36923[#0] WARNING:Eval --  (no more will be printed)[#0] WARNING:Eval -- 
+[#0] WARNING:Plotting -- At observable [x]=0.25 RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.238533), forcing value to zero @ !refCoefNorm=(svtxm = 0.25), !pdfs=(bottom = 1.64498e-07/4.31474e-06,charm = 5.44189e-07/2.77626e-06,light = 2.95945e-06/3.13074e-06), !coefficients=(Bfraction = 1 +/- 1.44243,Cfraction = 0.369234 +/- 6.52936)
+[#0] WARNING:Plotting -- At observable [x]=0.375 RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.238533), forcing value to zero @ !refCoefNorm=(svtxm = 0.375), !pdfs=(bottom = 1.64498e-07/4.31474e-06,charm = 5.44189e-07/2.77626e-06,light = 2.95945e-06/3.13074e-06), !coefficients=(Bfraction = 1 +/- 1.44243,Cfraction = 0.369234 +/- 6.52936)
+[#0] WARNING:Plotting -- At observable [x]=0.5 RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.151634), forcing value to zero @ !refCoefNorm=(svtxm = 0.5), !pdfs=(bottom = 6.17539e-07/4.31474e-06,charm = 1.48954e-06/2.77626e-06,light = 4.17898e-06/3.13074e-06), !coefficients=(Bfraction = 1 +/- 1.44243,Cfraction = 0.369234 +/- 6.52936)
+[#0] WARNING:Plotting -- At observable [x]=0.625 RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.151634), forcing value to zero @ !refCoefNorm=(svtxm = 0.625), !pdfs=(bottom = 6.17539e-07/4.31474e-06,charm = 1.48954e-06/2.77626e-06,light = 4.17898e-06/3.13074e-06), !coefficients=(Bfraction = 1 +/- 1.44243,Cfraction = 0.369234 +/- 6.52936)
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.35814[#0] WARNING:Eval -- 
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.35814[#0] WARNING:Eval -- 
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.35814[#0] WARNING:Eval -- 
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.35814[#0] WARNING:Eval -- 
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.35814[#0] WARNING:Eval -- 
+[#0] WARNING:Plotting -- At observable [x]=0.25 RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.128879), forcing value to zero @ !refCoefNorm=(svtxm = 0.25), !pdfs=(bottom = 1.64498e-07/4.31474e-06,charm = 5.44189e-07/2.77626e-06,light = 2.95945e-06/3.13074e-06), !coefficients=(Bfraction = 0.358142 +/- 1.44243,Cfraction = 1 +/- 6.52936)
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.35814[#0] WARNING:Eval -- 
+[#0] WARNING:Plotting -- At observable [x]=0.5 RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.128879), forcing value to zero @ !refCoefNorm=(svtxm = 0.5), !pdfs=(bottom = 1.64498e-07/4.31474e-06,charm = 5.44189e-07/2.77626e-06,light = 2.95945e-06/3.13074e-06), !coefficients=(Bfraction = 0.358142 +/- 1.44243,Cfraction = 1 +/- 6.52936)
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.35814[#0] WARNING:Eval -- 
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.35814[#0] WARNING:Eval -- 
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.35814[#0] WARNING:Eval -- 
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.35814[#0] WARNING:Eval --  (no more will be printed)[#0] WARNING:Eval -- 
+[#0] WARNING:Plotting -- At observable [x]=0.25 RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.128879), forcing value to zero @ !refCoefNorm=(svtxm = 0.25), !pdfs=(bottom = 1.64498e-07/4.31474e-06,charm = 5.44189e-07/2.77626e-06,light = 2.95945e-06/3.13074e-06), !coefficients=(Bfraction = 0.358142 +/- 1.44243,Cfraction = 1 +/- 6.52936)
+[#0] WARNING:Plotting -- At observable [x]=0.375 RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.128879), forcing value to zero @ !refCoefNorm=(svtxm = 0.375), !pdfs=(bottom = 1.64498e-07/4.31474e-06,charm = 5.44189e-07/2.77626e-06,light = 2.95945e-06/3.13074e-06), !coefficients=(Bfraction = 0.358142 +/- 1.44243,Cfraction = 1 +/- 6.52936)
+[#1] INFO:InputArguments -- RooAbsData::plotOn(data) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+mycheck 7
+mycheck 8
+Info in <TH1D::Chi2TestX>: There is a bin in h1 with less than 10 effective events.
+
+Info in <TH1D::Chi2TestX>: There is a bin in h2 with less than 10 effective events.
+
+Chi2 = 7.621678, Prob = 0.746739, NDF = 11, igood = 3
+Info in <TH1D::Chi2TestX>: There is a bin in h1 with less than 10 effective events.
+
+Info in <TH1D::Chi2TestX>: There is a bin in h2 with less than 10 effective events.
+
+Chi2 = 7.621678, Prob = 0.746739, NDF = 11, igood = 3
+ZZZZZ TEXTcounter: 0   Comment: b-tagged sample (SSVHE > 2)
+ZZZZZ Scale factors: B= 0.965101 C= 1.54637 Light= 1.01248
+ZZZZZ Chi2: 7.62168 Chi2/NDF: 0.69288
+ZZZZZ var: svtxm  discr: discr_ssvHighEff    min(discr): 2    max(discr): 6
+min(var): 0    max(var): 6
+ZZZZZ in pT [ 80 , 100 ]
+ZZZZZ b jet fraction in data = 0.358142
+ZZZZZ c jet fraction = 0.369234
+Info in <TCanvas::Print>: pdf file PDFS/fitpPb_eta-1.0to1.0_SVmass_2_floatC_80.pdf has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: MACROS/fitpPb_eta-1.0to1.0_SVmass_2_floatC_80.C has been generated
+mycheck 1
+mycheck 2
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xB): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xC): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xL): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xCL): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+mycheck 3
+mycheck 4
+[#1] INFO:Eval -- RooAbsReal::attachToTree(discr_prob) TTree Float_t branch discr_prob will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(jtpt) TTree Float_t branch jtpt will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(jteta) TTree Float_t branch jteta will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(rawpt) TTree Float_t branch rawpt will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(evtSelection) TTree Bool_t branch evtSelection will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(maxTrgPt) TTree Float_t branch maxTrgPt will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(pthat) TTree Float_t branch pthat will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(data) Ignored 14457428 out of range events
+mycheck 5
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (bottom,charm,light)
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(model) Calculating sum-of-weights-squared correction matrix for covariance matrix
+setting parameter 0 error to 0.389288
+setting parameter 1 error to 0.355852
+mycheck 6
+[#1] INFO:InputArguments -- RooAbsData::plotOn(data) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (light)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (charm)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (charm,light)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (bottom)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:InputArguments -- RooAbsData::plotOn(data) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+mycheck 7
+mycheck 8
+Info in <TH1D::Chi2TestX>: There is a bin in h1 with less than 10 effective events.
+
+Chi2 = 33.969805, Prob = 0.000365826, NDF = 11, igood = 1
+Info in <TH1D::Chi2TestX>: There is a bin in h1 with less than 10 effective events.
+
+Chi2 = 33.969805, Prob = 0.000365826, NDF = 11, igood = 1
+ZZZZZ TEXTcounter: 1   Comment: jets with JP info
+ZZZZZ Scale factors: B= 0.883864 C= 1.85605 Light= 1.09327
+ZZZZZ Chi2: 33.9698 Chi2/NDF: 3.08816
+ZZZZZ var: discr_prob  discr: discr_prob    min(discr): 0    max(discr): 3
+min(var): 0    max(var): 3
+ZZZZZ in pT [ 80 , 100 ]
+ZZZZZ b jet fraction in data = 0.0253572
+ZZZZZ c jet fraction = 0.117657
+mycheck 1
+mycheck 2
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xB): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xC): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xL): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(xCL): fit range of variable discr_prob expanded to nearest bin boundaries: [0,3] --> [0,3]
+mycheck 3
+mycheck 4
+[#1] INFO:Eval -- RooAbsReal::attachToTree(discr_prob) TTree Float_t branch discr_prob will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(jtpt) TTree Float_t branch jtpt will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(jteta) TTree Float_t branch jteta will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(discr_ssvHighEff) TTree Float_t branch discr_ssvHighEff will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(rawpt) TTree Float_t branch rawpt will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(evtSelection) TTree Bool_t branch evtSelection will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(maxTrgPt) TTree Float_t branch maxTrgPt will be converted to double precision
+[#1] INFO:Eval -- RooAbsReal::attachToTree(pthat) TTree Float_t branch pthat will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(data) Ignored 14881581 out of range events
+mycheck 5
+Warning in <TFile::Append>: Replacing existing TH1: discr_prob80100 (Potential memory leak).
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (bottom,charm,light)
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.06149[#0] WARNING:Eval -- 
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.06149[#0] WARNING:Eval -- 
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.06149[#0] WARNING:Eval -- 
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.06149[#0] WARNING:Eval -- 
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.06149[#0] WARNING:Eval -- 
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.06149[#0] WARNING:Eval -- 
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.06149[#0] WARNING:Eval -- 
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.06149[#0] WARNING:Eval -- 
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.06149[#0] WARNING:Eval -- 
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.06149[#0] WARNING:Eval --  (no more will be printed)[#0] WARNING:Eval -- 
+ EIGENVALUES OF SECOND-DERIVATIVE MATRIX:
+        -9.2937e-01  2.9294e+00
+ MINUIT WARNING IN HESSE   
+ ============== MATRIX FORCED POS-DEF BY ADDING 0.932304 TO DIAGONAL.
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(model) Calculating sum-of-weights-squared correction matrix for covariance matrix
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (1.60881e-05) to force MIGRAD to back out of this region. Error log follows
+Parameter values: Bfraction=0.248116, Cfraction=0.870866
+RooNLLVar::nll_model_data[ paramSet=(Bfraction,Cfraction) ]
+     function value is NAN @ paramSet=(Bfraction = 0.248116 +/- 0.558349,Cfraction = 0.870866 +/- 0.821158)
+RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.094831), forcing value to zero @ !refCoefNorm=(), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.558349,Cfraction = 0.870866 +/- 0.821158)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.558349,Cfraction = 0.870866 +/- 0.821158)
+     p.d.f value is less than zero (-0.094831), forcing value to zero @ !refCoefNorm=(), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.558349,Cfraction = 0.870866 +/- 0.821158)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.558349,Cfraction = 0.870866 +/- 0.821158)
+     p.d.f value is less than zero (-0.094831), forcing value to zero @ !refCoefNorm=(), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.558349,Cfraction = 0.870866 +/- 0.821158)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.558349,Cfraction = 0.870866 +/- 0.821158)
+     p.d.f value is less than zero (-0.094831), forcing value to zero @ !refCoefNorm=(), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.558349,Cfraction = 0.870866 +/- 0.821158)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.558349,Cfraction = 0.870866 +/- 0.821158)
+     p.d.f value is less than zero (-0.094831), forcing value to zero @ !refCoefNorm=(), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.558349,Cfraction = 0.870866 +/- 0.821158)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.558349,Cfraction = 0.870866 +/- 0.821158)
+     p.d.f value is less than zero (-0.094831), forcing value to zero @ !refCoefNorm=(), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.558349,Cfraction = 0.870866 +/- 0.821158)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.558349,Cfraction = 0.870866 +/- 0.821158)
+    ... (remaining 3838 messages suppressed)
+
+[#0] WARNING:Minization -- RooFitGlue: Minimized function has error status.
+Returning maximum FCN so far (1.60881e-05) to force MIGRAD to back out of this region. Error log follows
+Parameter values: Bfraction=0.248116, Cfraction=0.886579
+RooNLLVar::nll_model_data[ paramSet=(Bfraction,Cfraction) ]
+     function value is NAN @ paramSet=(Bfraction = 0.248116 +/- 0.558349,Cfraction = 0.886579 +/- 0.821158)
+RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.125618), forcing value to zero @ !refCoefNorm=(), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.558349,Cfraction = 0.886579 +/- 0.821158)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.558349,Cfraction = 0.886579 +/- 0.821158)
+     p.d.f value is less than zero (-0.125618), forcing value to zero @ !refCoefNorm=(), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.558349,Cfraction = 0.886579 +/- 0.821158)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.558349,Cfraction = 0.886579 +/- 0.821158)
+     p.d.f value is less than zero (-0.125618), forcing value to zero @ !refCoefNorm=(), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.558349,Cfraction = 0.886579 +/- 0.821158)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.558349,Cfraction = 0.886579 +/- 0.821158)
+     p.d.f value is less than zero (-0.125618), forcing value to zero @ !refCoefNorm=(), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.558349,Cfraction = 0.886579 +/- 0.821158)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.558349,Cfraction = 0.886579 +/- 0.821158)
+     p.d.f value is less than zero (-0.125618), forcing value to zero @ !refCoefNorm=(), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.558349,Cfraction = 0.886579 +/- 0.821158)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.558349,Cfraction = 0.886579 +/- 0.821158)
+     p.d.f value is less than zero (-0.125618), forcing value to zero @ !refCoefNorm=(), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.558349,Cfraction = 0.886579 +/- 0.821158)
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.558349,Cfraction = 0.886579 +/- 0.821158)
+    ... (remaining 3838 messages suppressed)
+
+ EIGENVALUES OF SECOND-DERIVATIVE MATRIX:
+        -3.1111e-01  2.3111e+00
+ MINUIT WARNING IN HESSE   
+ ============== MATRIX FORCED POS-DEF BY ADDING 0.313425 TO DIAGONAL.
+setting parameter 0 error to 0.567648
+setting parameter 1 error to 2.45183
+mycheck 6
+[#1] INFO:InputArguments -- RooAbsData::plotOn(data) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (light)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (charm)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (charm,light)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) directly selected PDF components: (bottom)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(model) indirectly selected PDF components: ()
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.50299[#0] WARNING:Eval -- 
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(model) evaluation error, 
+ origin       : RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+ message      : p.d.f value is less than zero (-0.902491), forcing value to zero
+ server values: !refCoefNorm=(), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.815764 +/- 0.567648,Cfraction = 0.687226 +/- 2.45183)
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.50299[#0] WARNING:Eval -- 
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.50299[#0] WARNING:Eval -- 
+[#0] WARNING:Plotting -- At observable [x]=3.0603e-08 RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.902491), forcing value to zero @ !refCoefNorm=(discr_prob = 3.0603e-08), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.815764 +/- 0.567648,Cfraction = 0.687226 +/- 2.45183)
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.50299[#0] WARNING:Eval -- 
+[#0] WARNING:Plotting -- At observable [x]=0.1 RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.902491), forcing value to zero @ !refCoefNorm=(discr_prob = 0.1), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.815764 +/- 0.567648,Cfraction = 0.687226 +/- 2.45183)
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.50299[#0] WARNING:Eval -- 
+[#0] WARNING:Plotting -- At observable [x]=0.1 RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.550106), forcing value to zero @ !refCoefNorm=(discr_prob = 0.1), !pdfs=(bottom = 2.91513e-07/4.31687e-06,charm = 9.28712e-07/2.77648e-06,light = 5.19767e-06/3.13075e-06), !coefficients=(Bfraction = 0.815764 +/- 0.567648,Cfraction = 0.687226 +/- 2.45183)
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.50299[#0] WARNING:Eval -- 
+[#0] WARNING:Plotting -- At observable [x]=0.2 RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.550106), forcing value to zero @ !refCoefNorm=(discr_prob = 0.2), !pdfs=(bottom = 2.91513e-07/4.31687e-06,charm = 9.28712e-07/2.77648e-06,light = 5.19767e-06/3.13075e-06), !coefficients=(Bfraction = 0.815764 +/- 0.567648,Cfraction = 0.687226 +/- 2.45183)
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.50299[#0] WARNING:Eval -- 
+[#0] WARNING:Plotting -- At observable [x]=0.2 RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.329663), forcing value to zero @ !refCoefNorm=(discr_prob = 0.2), !pdfs=(bottom = 5.91399e-07/4.31687e-06,charm = 2.17491e-06/2.77648e-06,light = 6.0982e-06/3.13075e-06), !coefficients=(Bfraction = 0.815764 +/- 0.567648,Cfraction = 0.687226 +/- 2.45183)
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.50299[#0] WARNING:Eval -- 
+[#0] WARNING:Plotting -- At observable [x]=0.3 RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.329663), forcing value to zero @ !refCoefNorm=(discr_prob = 0.3), !pdfs=(bottom = 5.91399e-07/4.31687e-06,charm = 2.17491e-06/2.77648e-06,light = 6.0982e-06/3.13075e-06), !coefficients=(Bfraction = 0.815764 +/- 0.567648,Cfraction = 0.687226 +/- 2.45183)
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.50299[#0] WARNING:Eval -- 
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.50299[#0] WARNING:Eval --  (no more will be printed)[#0] WARNING:Eval -- 
+[#0] WARNING:Plotting -- At observable [x]=1.53015e-08 RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.902491), forcing value to zero @ !refCoefNorm=(discr_prob = 1.53015e-08), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.815764 +/- 0.567648,Cfraction = 0.687226 +/- 2.45183)
+[#0] WARNING:Plotting -- At observable [x]=0.05 RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.902491), forcing value to zero @ !refCoefNorm=(discr_prob = 0.05), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.815764 +/- 0.567648,Cfraction = 0.687226 +/- 2.45183)
+[#0] WARNING:Plotting -- At observable [x]=0.1 RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.550106), forcing value to zero @ !refCoefNorm=(discr_prob = 0.1), !pdfs=(bottom = 2.91513e-07/4.31687e-06,charm = 9.28712e-07/2.77648e-06,light = 5.19767e-06/3.13075e-06), !coefficients=(Bfraction = 0.815764 +/- 0.567648,Cfraction = 0.687226 +/- 2.45183)
+[#0] WARNING:Plotting -- At observable [x]=0.15 RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.550106), forcing value to zero @ !refCoefNorm=(discr_prob = 0.15), !pdfs=(bottom = 2.91513e-07/4.31687e-06,charm = 9.28712e-07/2.77648e-06,light = 5.19767e-06/3.13075e-06), !coefficients=(Bfraction = 0.815764 +/- 0.567648,Cfraction = 0.687226 +/- 2.45183)
+[#0] WARNING:Plotting -- At observable [x]=0.2 RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.329663), forcing value to zero @ !refCoefNorm=(discr_prob = 0.2), !pdfs=(bottom = 5.91399e-07/4.31687e-06,charm = 2.17491e-06/2.77648e-06,light = 6.0982e-06/3.13075e-06), !coefficients=(Bfraction = 0.815764 +/- 0.567648,Cfraction = 0.687226 +/- 2.45183)
+[#0] WARNING:Plotting -- At observable [x]=0.25 RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.329663), forcing value to zero @ !refCoefNorm=(discr_prob = 0.25), !pdfs=(bottom = 5.91399e-07/4.31687e-06,charm = 2.17491e-06/2.77648e-06,light = 6.0982e-06/3.13075e-06), !coefficients=(Bfraction = 0.815764 +/- 0.567648,Cfraction = 0.687226 +/- 2.45183)
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.24812[#0] WARNING:Eval -- 
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(model) evaluation error, 
+ origin       : RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+ message      : p.d.f value is less than zero (-0.347842), forcing value to zero
+ server values: !refCoefNorm=(), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.567648,Cfraction = 1 +/- 2.45183)
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.24812[#0] WARNING:Eval -- 
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.24812[#0] WARNING:Eval -- 
+[#0] WARNING:Plotting -- At observable [x]=3.0603e-08 RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.347842), forcing value to zero @ !refCoefNorm=(discr_prob = 3.0603e-08), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.567648,Cfraction = 1 +/- 2.45183)
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.24812[#0] WARNING:Eval -- 
+[#0] WARNING:Plotting -- At observable [x]=0.1 RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.347842), forcing value to zero @ !refCoefNorm=(discr_prob = 0.1), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.567648,Cfraction = 1 +/- 2.45183)
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.24812[#0] WARNING:Eval -- 
+[#0] WARNING:Plotting -- At observable [x]=0.1 RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.060676), forcing value to zero @ !refCoefNorm=(discr_prob = 0.1), !pdfs=(bottom = 2.91513e-07/4.31687e-06,charm = 9.28712e-07/2.77648e-06,light = 5.19767e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.567648,Cfraction = 1 +/- 2.45183)
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.24812[#0] WARNING:Eval -- 
+[#0] WARNING:Plotting -- At observable [x]=0.2 RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.060676), forcing value to zero @ !refCoefNorm=(discr_prob = 0.2), !pdfs=(bottom = 2.91513e-07/4.31687e-06,charm = 9.28712e-07/2.77648e-06,light = 5.19767e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.567648,Cfraction = 1 +/- 2.45183)
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.24812[#0] WARNING:Eval -- 
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.24812[#0] WARNING:Eval -- 
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.24812[#0] WARNING:Eval -- 
+[#0] WARNING:Eval -- RooAddPdf::updateCoefCache(model WARNING: sum of PDF coefficients not in range [0-1], value=1.24812[#0] WARNING:Eval --  (no more will be printed)[#0] WARNING:Eval -- 
+[#0] WARNING:Plotting -- At observable [x]=1.53015e-08 RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.347842), forcing value to zero @ !refCoefNorm=(discr_prob = 1.53015e-08), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.567648,Cfraction = 1 +/- 2.45183)
+[#0] WARNING:Plotting -- At observable [x]=0.05 RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.347842), forcing value to zero @ !refCoefNorm=(discr_prob = 0.05), !pdfs=(bottom = 2.80895e-07/4.31687e-06,charm = 4.5104e-07/2.77648e-06,light = 6.64261e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.567648,Cfraction = 1 +/- 2.45183)
+[#0] WARNING:Plotting -- At observable [x]=0.1 RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.060676), forcing value to zero @ !refCoefNorm=(discr_prob = 0.1), !pdfs=(bottom = 2.91513e-07/4.31687e-06,charm = 9.28712e-07/2.77648e-06,light = 5.19767e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.567648,Cfraction = 1 +/- 2.45183)
+[#0] WARNING:Plotting -- At observable [x]=0.15 RooAddPdf::model[ Bfraction * bottom + Cfraction * charm + [%] * light ]
+     p.d.f value is less than zero (-0.060676), forcing value to zero @ !refCoefNorm=(discr_prob = 0.15), !pdfs=(bottom = 2.91513e-07/4.31687e-06,charm = 9.28712e-07/2.77648e-06,light = 5.19767e-06/3.13075e-06), !coefficients=(Bfraction = 0.248116 +/- 0.567648,Cfraction = 1 +/- 2.45183)
+[#1] INFO:InputArguments -- RooAbsData::plotOn(data) INFO: dataset has non-integer weights, auto-selecting SumW2 errors instead of Poisson errors
+mycheck 7
+mycheck 8
+Info in <TH1D::Chi2TestX>: There is a bin in h1 with less than 10 effective events.
+
+Chi2 = 96.845649, Prob = 7.50755e-16, NDF = 11, igood = 1
+Info in <TH1D::Chi2TestX>: There is a bin in h1 with less than 10 effective events.
+
+Chi2 = 96.845649, Prob = 7.50755e-16, NDF = 11, igood = 1
+ZZZZZ TEXTcounter: 2   Comment: b-tagged sample (SSVHE > 2)
+ZZZZZ Scale factors: B= 0.668415 C= 2.87849 Light= 0.240179
+ZZZZZ Chi2: 96.8456 Chi2/NDF: 8.80415
+ZZZZZ var: discr_prob  discr: discr_ssvHighEff    min(discr): 2    max(discr): 6
+min(var): 0    max(var): 3
+ZZZZZ in pT [ 80 , 100 ]
+ZZZZZ b jet fraction in data = 0.248116
+ZZZZZ c jet fraction = 0.687226
+ bPurMC 0.376158 numbers.nTaggedBjetsMC 4.37515e-06 numbers.nTaggedJetsMC 1.16312e-05
+checkpoint 1
+checkpoint 2
+checkpoint 3
+checkpoint 4
+checkpoint 5
+checkpoint 6
+checkpoint 7
+checkpoint 8
+nTaggedJetsMC 1.16312e-05
+nUntaggedJetsMC 0.000221608
+nJetsMC 0.000233239
+nTaggedBjetsMC 4.37515e-06
+nUntaggedBjetsMC 2.23891e-06
+nBjetsMC 6.61406e-06
+nNonBjetsMC 0.000226625
+nTaggedNonBjetsMC 7.25601e-06
+nTaggedJetsData 1.16312e-05
+nUntaggedJetsData 0.000221608
+bPurMC 0.376158
+bPurData 0.358142
+bEffMC 0.661493
+CbForJP 1
+bEffDataLTJP 0.48795
+CbForCSV 0
+bEffDataLTCSV 0
+bFracMC 0.0283574
+bFracData 0.0269993
+bFracDataLTJP 0.0366018
+bFracDataLTCSV 0
+bFracJPdirect 0.0253572
+
+Info in <TCanvas::Print>: GIF file gifs/svtxMassFit_CLfree.gif has been created
+Info in <TCanvas::Print>: GIF file gifs/jpBeforeTag_CLfree.gif has been created
+Info in <TCanvas::Print>: GIF file gifs/jpAfterTag_CLfree.gif has been created
+root [1] 
+
